@@ -1,0 +1,433 @@
+header {
+	width: 100%;
+	height: 200 px;
+	padding: 5px;
+	padding-left: 15px;
+	background-color: #fefefe;
+	border-bottom:  solid 1px fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	z-index: 100;
+	position: fixed;
+
+}
+
+h3 {
+	font-size: 20px;
+}
+
+footer {
+	background-color: #444;
+	text-align: center;
+	color: white;
+	padding: 30px;
+}
+
+.logo_header {
+	width: 120px;
+	margin: 10px;
+	margin: 20px;
+	/*display: none;*/
+}
+#logo_mobile {
+	display: none;
+}
+
+#btnGroupDrop1 {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #5dbfc3;
+	border: none;
+	width: 150px;
+	color: white;
+}
+
+#btnGroupDrop1:hover {
+	text-decoration: underline;
+	background-color: #3c726d;
+}
+
+#btn_mobile {
+	display: none;
+}
+
+.botonera_header {
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	margin-top: 25px;
+}
+
+.botonera_header:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+#botonera {
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+}
+
+.nav-item {
+	float: left;
+}
+
+#principal {
+	position: relative;
+	text-align: center;
+}
+
+#pleca_principal {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	width: 900px;
+  	height: 200px;
+  	background-color: rgba(93, 191, 195, .85);
+  	padding: 40px;
+}
+
+#pleca_principal_outline {
+	width: 100%;
+	padding: 40px;
+	border: solid 1px white;
+  	font-size: 30px;
+  	color: white;
+}
+
+.pleca_verde {
+	position: relative;
+	background-color: #5dbfc3;
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	padding: 30px;
+	margin-bottom: 60px;
+}
+
+.pleca_verde_02 {
+	position: relative;
+	background-color: #5dbfc3;
+	width: 100%;
+	text-align: center;
+	padding: 150px;
+	margin-top: 100px;
+}
+.pleca_verde_03 {
+	position: relative;
+	background-color: #5dbfc3;
+	width: 100%;
+	padding: 150px;
+	margin-top: 100px;
+}
+
+#pleca_verde_info {
+	color: white;
+	margin: auto;
+	width: 600px;
+	margin-top: 60px;
+}
+
+#pleca_verde_info h2{
+	font-size: 40px;
+}
+
+#pleca_verde_info p{
+	font-size: 24px;
+}
+
+#pleca_verde_info b{
+	font-size: 30px;
+}
+
+.características {
+	margin: auto;
+	width: 1000px;
+	display: flex;
+}
+
+.caracteristicastablet {
+	display: none;
+}
+
+.características_02 {
+	margin: auto;
+	width: 700px;
+	display: flex;
+}
+
+.caracteristicas_cont {
+	width: 300px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.caracteristicas_cont_02 {
+	width: 330px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.caracteristicas_cont p{
+	text text-align: justify;
+	padding: 15px;
+	background-color: white;
+}
+
+#tercera_header {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	color: #5dbfc3;
+}
+
+.cuarta_header {
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.paquete_header {
+	background-color: #ededed;
+	padding: 5px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.paquete_bottom {
+	background-color: #ededed;
+	padding: 5px;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.paquete_prec {
+	background-color: white;
+	padding: 15px;
+	border-top: solid #ccc 1px;
+	text-align: center;
+	font-size: 40px;
+}
+
+.paquete_prec_span {
+	font-size: 15px;
+}
+
+.paquete_secc {
+	background-color: white;
+	padding: 15px;
+	border-top: solid #ccc 1px;
+	text-align: left;
+}
+
+.paquete_boton {
+	border: none;
+}
+/*
+.paquete_boton {
+	background-color: #444;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 12px;
+	color: white;
+	border-radius: 5px;
+}
+
+.paquete_boton:hover {
+	background-color: #000;
+}
+*/
+
+#accordionFlushExample {
+	margin: auto;
+	width: 800px;
+	padding-bottom: 100px;
+}
+
+#contacto {
+	margin: auto;
+	width: 600px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #444;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #000;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.blue-ar-l-rn-none {
+	color: white;
+}
+
+.blue-ar-l-rn-none:hover {
+	color: white;
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+@media only screen and (max-width: 1100px) {
+#botonera {
+	display: none;
+}
+
+#logo_mobile {
+	display: block;
+}
+}
+
+@media only screen and (max-width: 900px) {
+#pleca_verde_info {
+	width: 100%;
+	margin: 30px;
+	padding-right: 30px;		
+}
+
+#pleca_principal {
+	display: none;
+}
+
+.caracteristicasdesktop {
+	display: none;
+}
+
+.características {
+	width: 700px;
+	margin: auto;
+	padding-left: 50px;
+
+}
+
+.caracteristicastablet {
+	display: flex;
+}
+
+.características_02 {
+	width: 100%;
+	margin: 0px;
+	padding: 40px;
+}
+
+.caracteristicas_cont_02 {
+	width: 100%;
+
+}
+
+.pleca_verde_02 {
+	padding: 0px;
+	padding-top: 60px;
+}
+
+#accordionFlushExample {
+	width: 100%;
+	padding: 20px;
+}
+
+.pleca_verde_03 {
+	display: none;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.caracteristicastablet {
+	display: block;
+	margin: auto;
+}
+
+.características {
+	margin: auto;
+	width: 100%;
+	display: block;
+}
+
+.características_02 {
+	margin: 1px;
+	width: 100%;
+	display: block;
+}
+
+.pleca_verde_02 {
+	position: static;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+#pleca_verde_info {
+	width: 100%;
+	margin: 20px;
+}
+
+.pleca_verde {
+	position: static;
+	background-color: #5dbfc3;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 60px;
+}
+
+.cuarta_header {
+	padding-top: 30px;
+}
+
+#principal {
+	display: none;
+}
+
+.caracteristicas_cont {
+	width: 100%;
+}
+
+}
